@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\scr\\Proyectos\\apptienda\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\Universidad\\ELECTIVA 3\\AppDarkHouse\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\scr\\Proyectos\\apptienda\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\Universidad\\ELECTIVA 3\\AppDarkHouse\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

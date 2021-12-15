@@ -1,4 +1,5 @@
 import 'package:apptienda/Componentes/menu_horizontal.dart';
+import 'package:apptienda/Componentes/productos.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 
@@ -68,7 +69,7 @@ class _HomePageState extends State<HomePage> {
               currentAccountPicture: GestureDetector(
                 child: CircleAvatar(
                   backgroundColor: Colors.grey,
-                  child: Icon(Icons.person),
+                  child: Image.asset('img/user.jpg'),
                 ),
               ),
               decoration: BoxDecoration(color: Colors.black),
@@ -119,7 +120,13 @@ class _HomePageState extends State<HomePage> {
       body: ListView(
         children: <Widget>[
           imageCarousel,
+          Padding(padding: const EdgeInsets.all(8.0)),
           MenuHorizontal(),
+          Padding(padding: const EdgeInsets.all(20.0)),
+          Container(
+            height: 320.0,
+            child: Productos(),
+          )
         ],
       ),
     );

@@ -71,7 +71,10 @@ flutter:
     - img/m.png
     - img/h.png
     - img/blazer.jpg
-    - img/ropa.jpg
+    - img/blazer2.jpg
+    - img/ropa2.jpg
+    - img/blusa.jpg
+    - img/vestido.jpg
     
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

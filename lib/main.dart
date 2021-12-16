@@ -1,5 +1,6 @@
 import 'package:apptienda/Componentes/menu_horizontal.dart';
 import 'package:apptienda/Componentes/productos.dart';
+import 'package:apptienda/pages/carrito.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 
@@ -55,7 +56,10 @@ class _HomePageState extends State<HomePage> {
               Icons.shopping_cart,
               color: Colors.white,
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const Carrito()));
+            },
           )
         ],
       ),
@@ -94,10 +98,13 @@ class _HomePageState extends State<HomePage> {
                   leading: Icon(Icons.shopping_basket),
                 )),
             InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => new Carrito()));
+                },
                 child: ListTile(
-                  title: Text('Categorias'),
-                  leading: Icon(Icons.category),
+                  title: Text('Carrito'),
+                  leading: Icon(Icons.shopping_cart),
                 )),
             InkWell(
                 onTap: () {},

@@ -1,3 +1,4 @@
+import 'package:apptienda/pages/productos_detalle.dart';
 import 'package:flutter/material.dart';
 
 class Productos extends StatefulWidget {
@@ -15,10 +16,25 @@ class _ProductosState extends State<Productos> {
       "price": 120,
     },
     {
-      "name": "Camisa Azul",
-      "picture": "img/ropa.jpg",
-      "price": 120,
-    }
+      "name": "Blazer Caqui",
+      "picture": "img/blazer2.jpg",
+      "price": 115,
+    },
+    {
+      "name": "Vestido Verano",
+      "picture": "img/vestido.jpg",
+      "price": 45,
+    },
+    {
+      "name": "Vestido",
+      "picture": "img/blusa.jpg",
+      "price": 80,
+    },
+    {
+      "name": "Camisa",
+      "picture": "img/ropa2.jpg",
+      "price": 35,
+    },
   ];
 
   @override
@@ -55,6 +71,12 @@ class Single_pro extends StatelessWidget {
           tag: product_name,
           child: Material(
             child: InkWell(
+              onTap: () => Navigator.of(context).push(new MaterialPageRoute(
+                  builder: (context) => new ProductoDetalle(
+                        producto_detalle_name: product_name,
+                        producto_detalle_picture: product_picture,
+                        producto_detalle_price: product_price,
+                      ))),
               child: GridTile(
                   footer: Container(
                     color: Colors.white,

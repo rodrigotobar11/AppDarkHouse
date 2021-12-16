@@ -1,0 +1,2 @@
+1. Para poder correr la aplicación se tiene que iniciar un emulador
+2. En la terminal correr la siguiente instrucción: flutter run --no-sound-null-safety

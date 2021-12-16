@@ -6,7 +6,7 @@ class MenuHorizontal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 70,
+      height: 100.0,
       child: ListView(scrollDirection: Axis.horizontal, children: <Widget>[
         Categoria(
           image_location: 'img/h.png',

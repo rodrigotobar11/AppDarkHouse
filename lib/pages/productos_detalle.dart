@@ -22,7 +22,7 @@ class _ProductoDetalleState extends State<ProductoDetalle> {
       appBar: AppBar(
         elevation: 0.1,
         backgroundColor: Colors.black,
-        title: const Text('DARKHOUSE'),
+        title: const Text('BLACKHOUSE'),
         actions: <Widget>[
           IconButton(
             icon: Icon(

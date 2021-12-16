@@ -14,7 +14,7 @@ class _CarritoState extends State<Carrito> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title: const Text('DARKHOUSE'),
+        title: const Text('BLACKHOUSE'),
         actions: <Widget>[
           IconButton(
             icon: Icon(
